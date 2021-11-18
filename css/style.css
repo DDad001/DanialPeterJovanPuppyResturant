@@ -79,7 +79,10 @@
 }
 @font-face {
     font-family: "Montauk Regular";
-    src: url();
+    src: url("../fonts/Montauk-Regular.otf");
+}
+.fontStyle{
+    font-family:"Montauk Regular";
 }
 .MarginBottomAboutText{
     margin-bottom: 3%;
