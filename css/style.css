@@ -69,19 +69,17 @@
     padding: 6px;
     background-color: #FFFFFF;
 }
-.PhotoRowPad{
-    padding-bottom: px;
-}
+
 
 .PhotoBottomText{
     font-size: 20px;
     color: #5F002B;
-    font-family: "Montauk Regular";
+    font-family: "Montauk light";
 }
 .PhotoTitle{
     font-size: 50px;
     color: #5F002B;
-    font-style: italic;
+    font-weight: bold;
     font-family: "Montauk Bold";
 }
 
