@@ -45,6 +45,26 @@
     background-position: center;
 }
 
+.MainPageBotLogo{
+    
+    justify-content: flex-end;
+}
+.PhotoPageWhite{
+    background-color: #FFFFFF;
+}
+
+.MainPageThreeImage{
+    margin-top: 10.25%;
+}
+.PhotoPadding{
+    padding: 6px;
+    background-color: #FFFFFF;
+}
+.PhotoRowPad{
+    padding-bottom: px;
+}
+
+
 .BackgroundMainWhite{
     background-color: #FFFFFF;
 }
