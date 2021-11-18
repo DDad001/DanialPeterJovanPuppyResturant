@@ -45,6 +45,15 @@
     background-position: center;
 }
 
+.BackgroundMainWhite{
+    background-color: #FFFFFF;
+}
+
+.NavTextEnd{
+    display: flex;
+    justify-content: end;
+}
+
 .MainPageBotLogo{
     
     justify-content: flex-end;
@@ -64,16 +73,17 @@
     padding-bottom: px;
 }
 
-
-.BackgroundMainWhite{
-    background-color: #FFFFFF;
+.PhotoBottomText{
+    font-size: 20px;
+    color: #5F002B;
+    font-family: "Montauk Regular";
 }
-
-.NavTextEnd{
-    display: flex;
-    justify-content: end;
+.PhotoTitle{
+    font-size: 50px;
+    color: #5F002B;
+    font-style: italic;
+    font-family: "Montauk Bold";
 }
-
 
 .HeroImageMainAbout{
     background-image: url("../images/AboutMain.jpg");
