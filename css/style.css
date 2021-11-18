@@ -1,0 +1,109 @@
+.colorTan{
+    color: #F2E9D9;
+}
+.colorWhite{
+    color: #FFFFFF;
+}
+.colorBrown{
+    color: #5F002B;
+}
+.colorDarkPink{
+    color: #980051;
+}
+
+
+.MainHeroImage{
+    background-image: url("../images/bgtexture.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: relative;
+    background-position: center;
+}
+.MainFriesImage{
+    width: 674px;
+    height: 449.5px;
+}
+.MainMiddleMargin{
+    margin-top: 100px;
+}
+.MainContentTitle{
+    font-size: 50px;
+    color: #5F002B;
+}
+.MainContentText{
+    font-size: 20px;
+    color: #5F002B;
+}
+.topText{
+    text-align: right;
+}
+.PhotoHeroImage{
+    background-image: url("../images/bgtexture.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: relative;
+    background-position: center;
+}
+
+.BackgroundMainWhite{
+    background-color: #FFFFFF;
+}
+
+.NavTextEnd{
+    display: flex;
+    justify-content: end;
+}
+
+
+.HeroImageMainAbout{
+    background-image: url("../images/AboutMain.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 674.5px;
+    max-width:674.5px;
+}
+
+.BackgroundAboutWhite{
+    background-color: #FFFFFF;
+}
+
+.BackgroundCateringWhite{
+     background-color: #FFFFFF;
+} 
+
+.NavTextEnd{
+    display: flex;
+    justify-content: end;
+}
+
+.MarginBottomAboutText{
+    margin-bottom: 3%;
+}
+
+.ImageSizeCard{
+    height:537px;
+    width:537px;
+}
+
+.paddingAboutText{
+  padding-right: 7%;
+  padding-left: 5%;
+}
+
+  .Imagelength{
+      height: 100%;
+      width:100%;
+
+  }
+
+  @font-face{
+      font-family: "Montauk Regular";
+      src: url("");
+  }
+
+.MarginBottomCard{
+    margin-bottom: 16.5%;
+}
+
+
+  
