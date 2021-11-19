@@ -10,7 +10,12 @@
 .colorDarkPink{
     color: #980051;
 }
-
+.nav-link{
+    color: #5F002B !important;
+}
+.fontStyle4{
+    font-family: 'Fugaz One', cursive;
+}
 
 .MainHeroImage{
     background-image: url("../images/bgtexture.jpg");
@@ -24,7 +29,7 @@
     height: 449.5px;
 }
 .MainMiddleMargin{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .MainContentTitle{
     font-size: 50px;
@@ -44,7 +49,6 @@
     display: relative;
     background-position: center;
 }
-
 .BackgroundMainWhite{
     background-color: #FFFFFF;
 }
@@ -54,13 +58,56 @@
     justify-content: end;
 }
 
+.MainPageBotLogo{
+    
+    justify-content: flex-end;
+}
+.PhotoPageWhite{
+    background-color: #FFFFFF;
+}
+
+.MainPageThreeImage{
+    margin-top: 6.75%;
+}
+.PhotoPadding{
+    padding: 6px;
+    background-color: #FFFFFF;
+}
+.FugazFontTitle{
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    color: #5F002B;
+}
+.FugazNav{
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+
+.FooterBot{
+    margin-bottom: 50px;
+}
+
+
+.PhotoBottomText{
+    font-size: 20px;
+    color: #5F002B;
+    font-family: "Montauk light";
+}
+.PhotoTitle{
+    font-size: 50px;
+    color: #5F002B;
+    font-weight: bold;
+    font-family: "Montauk Bold";
+}
 
 .HeroImageMainAbout{
     background-image: url("../images/AboutMain.jpg");
     background-size: cover;
     background-position: center;
     height: 674.5px;
-    max-width:674.5px;
+    max-width: 674.5px;
 }
 
 .BackgroundAboutWhite{
@@ -70,12 +117,28 @@
 .BackgroundCateringWhite{
      background-color: #FFFFFF;
 } 
-
 .NavTextEnd{
     display: flex;
     justify-content: end;
 }
-
+@font-face{
+    font-family:"Montauk Regular";
+    src: url("../fonts/Montauk-Regular.otf");
+}
+@font-face{
+    font-family:"Montauk Light";
+    src: url("../fonts/Montauk-Light.otf");
+}
+.fontStyle2{
+    font-family:"Montauk Light";
+    font-size:20px ;
+}
+.fontStyle{
+    font-family:"Montauk Regular";
+}
+.MarginBottomAboutText{
+    margin-bottom: 3%;
+}
 
 .ImageSizeCard{
     height:537px;
@@ -87,11 +150,11 @@
   padding-left: 5%;
 }
 
-  .Imagelength{
+.Imagelength{
       height: 100%;
       width:100%;
 
-  }
+}
 
   @font-face{
       font-family: "Montauk Regular";
@@ -109,6 +172,20 @@
       font-family: "Montauk Italic";
       src: url("../fonts/Montauk-Italic.otf");
   }
+  @font-face{
+    font-family: "Montauk Italic";
+    src: url("../fonts/Montauk-Italic.otf");
+}
+@font-face{
+    font-family: "Montauk Light";
+    src: url("../fonts/Montauk-Light.otf");
+}
+@font-face{
+    font-family: "Montauk Bold";
+    src: url("../fonts/Montauk-Bold.otf");
+}
+
+
 
 .MarginBottomCard{
     margin-bottom: 19.7%;
@@ -178,4 +255,7 @@
     
 
   
+.FooterHeight{
+    height: 0%;
+}
 
