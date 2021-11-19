@@ -24,7 +24,7 @@
     height: 449.5px;
 }
 .MainMiddleMargin{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .MainContentTitle{
     font-size: 50px;
@@ -63,7 +63,7 @@
 }
 
 .MainPageThreeImage{
-    margin-top: 10.25%;
+    margin-top: 7.75%;
 }
 .PhotoPadding{
     padding: 6px;
@@ -146,6 +146,8 @@
 .MarginBottomCard{
     margin-bottom: 16.5%;
 }
-
+.FooterHeight{
+    height: 0%;
+}
 
   
