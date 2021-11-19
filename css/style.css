@@ -77,9 +77,17 @@
     display: flex;
     justify-content: end;
 }
-@font-face {
-    font-family: "Montauk Regular";
+@font-face{
+    font-family:"Montauk Regular";
     src: url("../fonts/Montauk-Regular.otf");
+}
+@font-face{
+    font-family:"Montauk Light";
+    src: url("../fonts/Montauk-Light.otf");
+}
+.fontStyle2{
+    font-family:"Montauk Light";
+    font-size:20px ;
 }
 .fontStyle{
     font-family:"Montauk Regular";
@@ -98,16 +106,16 @@
   padding-left: 5%;
 }
 
-  .Imagelength{
+.Imagelength{
       height: 100%;
       width:100%;
 
-  }
+}
 
-  @font-face{
-      font-family: "Montauk Regular";
-      src: url("");
-  }
+@font-face{
+      font-family: "Montauk Bold";
+      src: url("../fonts/Montauk-Bold.otf");
+}
 
 .MarginBottomCard{
     margin-bottom: 16.5%;
