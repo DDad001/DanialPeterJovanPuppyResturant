@@ -76,9 +76,6 @@
     justify-content: end;
 }
 
-.MarginBottomAboutText{
-    margin-bottom: 3%;
-}
 
 .ImageSizeCard{
     height:537px;
@@ -98,12 +95,87 @@
 
   @font-face{
       font-family: "Montauk Regular";
-      src: url("");
+      src: url("../fonts/Montauk-Regular.otf");
+  }
+  @font-face{
+      font-family: "Montauk Bold";
+      src: url("../fonts/Montauk-Bold.otf");
+  }
+  @font-face{
+      font-family: "Montauk Light";
+      src: url("../fonts/Montauk-Light.otf");
+  }
+  @font-face{
+      font-family: "Montauk Italic";
+      src: url("../fonts/Montauk-Italic.otf");
   }
 
 .MarginBottomCard{
-    margin-bottom: 16.5%;
+    margin-bottom: 19.7%;
 }
 
 
+  .FontMontaukRegularAboutTitle{
+      font-family: 'Fugaz One', cursive;
+      color:#5F002B;
+      font-size: 40px;    
+  }
+
+.FontFugazAbout{
+    font-family: 'Fugaz One', cursive;
+    color:#5F002B;
+    font-size: 30px;   
+}
+
+  .HeaderFontText{
+    font-family: 'Fugaz One', cursive;
+    color:#5F002B;
+    font-size: 20px; 
+  }
+
+
+  .FontMontaukRegularAbout{
+    font-family: "Montauk Light";
+    color:#5F002B;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .FontFugazMenuTitle{
+    font-family: 'Fugaz One', cursive;
+    color:#5F002B;
+    font-size: 40px;
+  }
+
+  .FontFugazMenu{
+    font-family: 'Fugaz One', cursive;
+    color:#5F002B;
+    font-size: 30px;   
+}
+
+.FontMontaukRegularMenu{
+    font-family: "Montauk Light";
+    color:#5F002B;
+    font-size: 20px;
+  }
+  .FontMontaukRegularMenuTop{
+    font-family: "Montauk Light";
+    color:#5F002B;
+    font-size: 30px;
+  }
+  @media  (max-width: 992px){
+
+      .FontMontaukRegularMenuTop{
+          font-family: "Montauk Light";
+          color:#5F002B;
+          font-size: 25px;
+        }
+    }
+
+    .removeMargin{
+        margin: 0 !important;
+    }
+    
+
   
+
