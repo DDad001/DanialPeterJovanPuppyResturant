@@ -10,47 +10,51 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
     <title>Home</title>
   </head>
-
   <body class="MainHeroImage">
     
-    <!-- my first commit -->
-  <!-- why     -->
     <div class="container-fluid">
         <!-- start of first page portion -->
-        <div class="container-fluid p-0 ">
-            <div class="row ">
-                <div class="col-12 mb-4">
-                    <nav class=" navbar navbar-expand-lg navbar-light">
-                        <a class = "navbar-brand "href="#">
-                            <img src="../images/MuzzlesLogo.png" alt=" Muzzles Logo">
-                        </a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                              <li class="nav-item">
-                                <a class="nav-link mx-4" href="#OurRooms">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link mx-4" href="#Packages">Menu</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link mx-4" href="#Amenities">Catering</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link mx-4" href="#Contact">Photo</a>
-                              </li>
-                            </ul>
-                          </div>
-                      </nav>
-                </div>
+        <div class="container">
+          <div class="row ">
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
+                <nav class=" navbar navbar-expand-lg navbar-light">
+                    <a class = "navbar-brand "href="/index.html">
+                        <img src="./images/MuzzlesLogo.png" alt=" Muzzles Logo">
+                    </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link mx-4 FugazNav" href="./pages/AboutPage.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mx-4 FugazNav" href="./pages/MenuPage.html">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mx-4 FugazNav" href="./pages/CateringPage.html">Catering</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mx-4 FugazNav" href="./pages/PhotosPage.html">Photo</a>
+                          </li>
+                        </ul>
+                      </div>
+                  </nav>
             </div>
+        </div>
+        </div>
+        <div class="container-fluid p-0 ">
+            
             <!-- image -->
             <div class="row">
-                <img src="/images/homeHero.jpg" class="img-fluid p-0" height="600px" width="1920px" alt="Chairs and tables">
+                <img src="./images/homeHero.jpg" class="img-fluid p-0" height="600px" width="1920px" alt="Chairs and tables">
             </div>
             <!-- end of image -->
         </div>
@@ -58,42 +62,45 @@
             
         <div class="container">
             <div class="row MainMiddleMargin ">
-                <div class="col-5 mx-3">
-                    <img src="/images/homeSingle.jpg" height="449.5px" width="674px" class="img-fluid" alt="Fries and chicken burger" class="MainFriesImage">
+                <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
+                    <img src="./images/homeSingle.jpg" class="" height="410px" width="410px" alt="Fries and chicken burger" class="MainFriesImage">
                     </div>
                         <!-- content next to burger and fries -->
                         
                         
-                <div class="col-6 BackgroundMainWhite">
+                <div class="col-sm-12 col-md-12 col-lg-8 BackgroundMainWhite mt-5">
                         
                             <!-- content -->
-                            <div class="row">
-                                <h1 class="MainContentTitle">Muzzles Sandwiches & Grill</h1>
-                                <h5 class="MainContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+                            <div class="row ">
+                                <h1 class="FugazFontTitle mt-2">Muzzles Sandwiches & Grill</h1>
+                                <h5 class="MainContentText PhotoBottomText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
                             </div>
                         
                             <!-- the three image together -->
-                            
-                                <img src="/images/HomeImage.jpg" class="img-fluid p-0 " alt="Grilled Sandwich next a pictur of a dog next to a pictures of burgers">
-                            
-
-                        
+                            <div class="row d-flex justify-content-end">
+                              <div class="col-12 MainPageThreeImage p-0">
+                                <img src="./images/HomeImage.jpg" class="img-fluid p-0" alt="Grilled Sandwich next a picture of a dog next to a pictures of burgers">
+                              </div>
+                            </div>
+                 
                         
                     </div>
-
             </div>
             <!-- footer -->
         <div class="row mt-5 ">
-            <div class="col-4">
-                <h6>1357 Mutt Street, Rottweiler CA. 12345</h6>
+            <div class="col-6  d-flex justify-content-start">
+                <h6 class="PhotoBottomText">1357 Mutt Street, Rottweiler CA. 12345</h6>
             </div>
-            <div class="col-4">
-                <img src="/images/CompanyLogo.png" height="31.6px" width="100px" alt="A Spaniel Company Logo">
+            <div class="col-6 d-flex justify-content-end p-0">
+                <img src="./images/CompanyLogo.png" height="31.6px" width="100px" alt="A Spaniel Company Logo">
             </div>
         </div>
         <div class="row">
-            <div class="col-2">
-                <h6>Phone: 123-456-7890</h6>
+            <div class="col-6 d-flex justify-content-start">
+                <h6 class="PhotoBottomText">Phone: 123-456-7890</h6>
+            </div>
+            <div class="col-6 p-0 d-flex justify-content-end">
+              <h6 class="PhotoBottomText">Copyright © Muzzles Restaurant</h6>
             </div>
         </div>
         </div>

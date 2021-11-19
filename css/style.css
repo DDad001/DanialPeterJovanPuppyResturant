@@ -29,7 +29,7 @@
     height: 449.5px;
 }
 .MainMiddleMargin{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .MainContentTitle{
     font-size: 50px;
@@ -58,6 +58,49 @@
     justify-content: end;
 }
 
+.MainPageBotLogo{
+    
+    justify-content: flex-end;
+}
+.PhotoPageWhite{
+    background-color: #FFFFFF;
+}
+
+.MainPageThreeImage{
+    margin-top: 6.75%;
+}
+.PhotoPadding{
+    padding: 6px;
+    background-color: #FFFFFF;
+}
+.FugazFontTitle{
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    color: #5F002B;
+}
+.FugazNav{
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+
+.FooterBot{
+    margin-bottom: 50px;
+}
+
+
+.PhotoBottomText{
+    font-size: 20px;
+    color: #5F002B;
+    font-family: "Montauk light";
+}
+.PhotoTitle{
+    font-size: 50px;
+    color: #5F002B;
+    font-weight: bold;
+    font-family: "Montauk Bold";
+}
 
 .HeroImageMainAbout{
     background-image: url("../images/AboutMain.jpg");
@@ -113,16 +156,30 @@
 
 }
 
+  @font-face{
+      font-family: "Montauk Regular";
+      src: url("../fonts/Montauk-Regular.otf");
+  }
+  @font-face{
+    font-family: "Montauk Italic";
+    src: url("../fonts/Montauk-Italic.otf");
+}
 @font-face{
-      font-family: "Montauk Bold";
-      src: url("../fonts/Montauk-Bold.otf");
+    font-family: "Montauk Light";
+    src: url("../fonts/Montauk-Light.otf");
 }
-.fontStyle3{
-     font-family: "Montauk Bold";
+@font-face{
+    font-family: "Montauk Bold";
+    src: url("../fonts/Montauk-Bold.otf");
 }
+
+
 
 .MarginBottomCard{
     margin-bottom: 16.5%;
+}
+.FooterHeight{
+    height: 0%;
 }
 
   
