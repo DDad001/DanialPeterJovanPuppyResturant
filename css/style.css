@@ -10,7 +10,8 @@
 .colorDarkPink{
     color: #980051;
 }
-
+/* .fugazFont{
+} */
 
 .MainHeroImage{
     background-image: url("../images/bgtexture.jpg");
@@ -44,7 +45,6 @@
     display: relative;
     background-position: center;
 }
-
 .BackgroundMainWhite{
     background-color: #FFFFFF;
 }
@@ -103,7 +103,7 @@
     background-size: cover;
     background-position: center;
     height: 674.5px;
-    max-width:674.5px;
+    max-width: 674.5px;
 }
 
 .BackgroundAboutWhite{
@@ -113,12 +113,14 @@
 .BackgroundCateringWhite{
      background-color: #FFFFFF;
 } 
-
 .NavTextEnd{
     display: flex;
     justify-content: end;
 }
-
+@font-face {
+    font-family: "Montauk Regular";
+    src: url();
+}
 .MarginBottomAboutText{
     margin-bottom: 3%;
 }
