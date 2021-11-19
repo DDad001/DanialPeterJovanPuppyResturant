@@ -13,8 +13,9 @@
 .nav-link{
     color: #5F002B !important;
 }
-/* .fugazFont{
-} */
+.fontStyle4{
+    font-family: 'Fugaz One', cursive;
+}
 
 .MainHeroImage{
     background-image: url("../images/bgtexture.jpg");
@@ -115,6 +116,9 @@
 @font-face{
       font-family: "Montauk Bold";
       src: url("../fonts/Montauk-Bold.otf");
+}
+.fontStyle3{
+     font-family: "Montauk Bold";
 }
 
 .MarginBottomCard{
