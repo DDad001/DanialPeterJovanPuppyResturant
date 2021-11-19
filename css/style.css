@@ -69,6 +69,21 @@
     padding: 6px;
     background-color: #FFFFFF;
 }
+.FugazFontTitle{
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    color: #5F002B;
+}
+.FugazNav{
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+
+.FooterBot{
+    margin-bottom: 50px;
+}
 
 
 .PhotoBottomText{
